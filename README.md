@@ -11,7 +11,9 @@ This project implements a deep learning-based fraud detection system using Tenso
 - Neural network model trained on imbalanced transaction data  
 - Handles extreme class imbalance with high recall and acceptable precision  
 - Model evaluation using precision, recall, F1-score, and ROC-AUC  
-- Model versioning and serialization using TensorFlow SavedModel format  
+- Model versioning and serialization using TensorFlow SavedModel format
+
+## Need to do 
 - Containerized inference service with Docker  
 - REST API for real-time fraud prediction using FastAPI  
 - Automated CI/CD pipeline for seamless testing and deployment  
